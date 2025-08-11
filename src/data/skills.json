@@ -1,0 +1,23 @@
+[
+  { "name": "Java", "icon": "devicon-java-plain" },
+  { "name": "PHP", "icon": "devicon-php-plain" },
+  { "name": "C++", "icon": "devicon-cplusplus-plain" },
+  { "name": "Laravel", "icon": "devicon-laravel-plain" },
+  { "name": "JavaScript", "icon": "devicon-javascript-plain" },
+  { "name": "TypeScript", "icon": "devicon-typescript-plain" },
+  { "name": "Python", "icon": "devicon-python-plain" },
+  { "name": "Lua", "icon": "devicon-lua-plain" },
+  { "name": "React Js", "icon": "devicon-react-plain" },
+  { "name": "Next Js", "icon": "devicon-nextjs-plain" },
+  { "name": "Tailwind CSS", "icon": "devicon-tailwindcss-plain" },
+  { "name": "HTML/CSS", "icon": "devicon-html5-plain" },
+  { "name": "MySQL", "icon": "devicon-mysql-plain" },
+  { "name": "Hugo", "icon": "devicon-hugo-plain" },
+  { "name": "Git", "icon": "devicon-git-plain" },
+  { "name": "svelte", "icon": "devicon-svelte-plain" },
+  { "name": "Docker", "icon": "devicon-docker-plain" },
+  { "name": "Neovim", "icon": "devicon-neovim-plain" },
+  { "name": "Visual Studio", "icon": "devicon-visualstudio-plain" },
+  { "name": "Windows", "icon": "devicon-windows8-plain" }
+  
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Khmermovieflix",
+    "type": "Web Application",
+    "description": "A web application for browsing and streaming movies, featuring a user-friendly interface.",
+    "technologies": ["PHP", "MySQL", "HTML", "Tailwind CSS", "JavaScript"],
+    "image": "/preview-khflixmovie.png",
+    "link": "https://khmermovieflix.ct.ws/public/index.php"
+  },
+  {
+    "title": "Personal Blog",
+    "type": "Web Application",
+    "description": "A personal blog platform to share articles, insights, and experiences on various topics.",
+    "technologies": ["Hugo", "HTML", "CSS", "Markdown"],
+    "image": "/images/personal-blog.png",
+    "link": "https://yanouk-blog.netlify.app/"
+  },
+  {
+    "title": "KHTyping",
+    "type": "Web Application",
+    "description": "An interactive web application designed to help users improve their typing speed and accuracy.",
+    "technologies": ["HTML", "JavaScript", "CSS"],
+    "image": "/images/khtyping.png",
+    "link": "https://khtyping.vercel.app/"
+  }
+]
