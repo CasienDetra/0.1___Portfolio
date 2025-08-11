@@ -18,7 +18,7 @@ const TerminalCard: React.FC<TerminalCardProps> = ({ name, role, mission, achiev
   useEffect(() => {
     if (textRef.current) {
       gsap.fromTo(
-        Array.from(textRef.current.children as Element[]).flatMap((child: Element) => Array.from(child.querySelectorAll('.animate-text'))),
+        Array.from((textRef.current as HTMLElement).querySelectorAll('.animate-text')),
         { opacity: 0, filter: 'blur(10px)', y: 20 },
         {
           opacity: 1,
