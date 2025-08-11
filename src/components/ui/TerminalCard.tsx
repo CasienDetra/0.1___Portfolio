@@ -39,7 +39,7 @@ const TerminalCard: React.FC<TerminalCardProps> = ({ name, role, mission, achiev
   }, [name, role, mission, achievements]);
 
   return (
-    <div className="bg-[#020817] text-white font-mono p-6 rounded-lg shadow-lg max-w-2xl w-full border border-gray-700 transition-all duration-300 hover:scale-105 hover:border-blue-500">
+    <div className="bg-[#020817] text-white font-mono p-4 sm:p-6 rounded-lg shadow-lg max-w-2xl w-full border border-gray-700 transition-all duration-300 hover:scale-105 hover:border-blue-500">
       <div className="flex items-center space-x-2 mb-4">
         <div className="w-3 h-3 bg-red-500 rounded-full"></div>
         <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
@@ -49,13 +49,13 @@ const TerminalCard: React.FC<TerminalCardProps> = ({ name, role, mission, achiev
 
       <div className="mb-4" ref={textRef}>
         <p className="text-green-400 animate-text">{'>'}_ $ <span className="text-white animate-text">whoami</span></p>
-        <p className="text-blue-400 text-3xl font-bold animate-text">{name}</p>
+        <p className="text-blue-400 text-2xl sm:text-3xl font-bold animate-text">{name}</p>
       </div>
 
       <div className="mb-4">
         <p className="text-green-400 animate-text">{'>'}_ $ <span className="text-white animate-text">echo $ROLE</span></p>
 
-        <p className="text-white text-xl animate-text">{role}</p>
+        <p className="text-white text-lg sm:text-xl animate-text">{role}</p>
       </div>
 
       <div className="mb-4">
