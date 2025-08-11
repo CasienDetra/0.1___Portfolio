@@ -1,6 +1,7 @@
 "use client";
 
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useRef, useEffect } from 'react';
+import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 import { gsap } from 'gsap';
@@ -80,9 +81,11 @@ const SkillsSection: React.FC = () => {
             {allSkills.map((skill, index) => (
               <SwiperSlide key={index}>
                 <div className="flex flex-col items-center justify-center p-4 h-32 transform transition-transform duration-300 hover:scale-140 hover:translate-y-[-10px] animate-text">
-                  <img 
+                  <Image 
                     src={`https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/${skill.icon.split('-')[1]}/${skill.icon.split('-')[1]}-original.svg`} 
                     alt={`${skill.name} icon`} 
+                    width={48}
+                    height={48}
                     className="h-12 w-12 mb-2 animate-text" 
                   />
                   

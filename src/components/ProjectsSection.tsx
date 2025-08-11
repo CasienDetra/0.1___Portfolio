@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useRef, useEffect } from "react";
+import Image from "next/image";
 import allProjects from "../data/projects.json";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
@@ -64,9 +65,11 @@ const ProjectsSection: React.FC = () => {
               <div className="w-full h-58 bg-black flex items-center justify-center">
                 {/* Project preview */}
                 {project.title === "Khmermovieflix" ? (
-                  <img
+                  <Image
                     src={project.image}
                     alt={`${project.title} image`}
+                    width={500}
+                    height={500}
                     className="object-cover w-full h-full animate-text"
                   />
                 ) : (

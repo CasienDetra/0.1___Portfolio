@@ -1,13 +1,9 @@
 "use client";
 
-import { useCallback } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
-import type { Container, Engine } from "@tsparticles/engine";
 import { loadSlim } from "@tsparticles/slim"; // loads tsparticles-slim
 import { useEffect, useState } from "react";
-import useTextReveal from '@/lib/useTextReveal';
 
-import { CommitsGridDemo } from '@/components/demo/commits-grid-demo';
 import TerminalCard from '@/components/ui/TerminalCard';
 
 const HeroSection = () => {
@@ -15,7 +11,7 @@ const HeroSection = () => {
 
     useEffect(() => {
         const init = async () => {
-            const engine = await initParticlesEngine(async (engine) => {
+            await initParticlesEngine(async (engine) => {
                 await loadSlim(engine);
             });
             setParticlesLoaded(true);
