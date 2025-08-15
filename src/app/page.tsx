@@ -5,6 +5,7 @@ import SkillsSection from '../components/SkillsSection';
 import ProjectsSection from '../components/ProjectsSection';
 import ServicesSection from '../components/ServicesSection';
 import ContactSection from '../components/ContactSection';
+import Showcase from '../components/Showcase';
 export default function Home() {
   return (
     <main className="relative min-h-screen">
@@ -13,6 +14,7 @@ export default function Home() {
       <SkillsSection />
       <ProjectsSection />
       <ServicesSection />
+      <Showcase />
       <ContactSection />
     </main>
   );
